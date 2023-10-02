@@ -1,5 +1,7 @@
 {
-    "monday":{"lesson1":{"lesson":"WesWeb", "startTime":8.00, "endTime":9.20}
-
+    "monday":{"lesson1":{"lesson":"WesWeb", "startTime":"8.00", "endTime":"9.20"},
+              "lesson2":{"lesson":"MATMAT3C", "startTime":"9.30", "endTime":"10.30"},
+              "lesson3":{"lesson":"ENGENG06", "startTime":"10.40", "endTime":"12.00"},
+              "lesson4":{"lesson":"NAIADM0", "startTime":"14.20", "endTime":"15.40"}
     }
 }

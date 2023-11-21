@@ -2,7 +2,7 @@ const lessonArray  = ["lesson1", "lesson2", "lesson3",]
 
 
 async function checktimes(day, lessonNum, sectionL, sectionT) {
-    const response = await fetch("http://localhost/json/times.json");
+    const response = await fetch("http://localhost:8080/Personal%20github/json/times.json");
     const data = await response.json();
     console.log(data);
 
@@ -13,9 +13,8 @@ async function checktimes(day, lessonNum, sectionL, sectionT) {
     lessonStart.innerHTML = data[day][lessonNum]["startTime"] + "-" + data[day][lessonNum]["endTime"];
   }
 
+for(let lesson in lessonArray){
+    console.log(lesson);
+}
+
 checktimes("monday","lesson1","m1l","m1t");
-
-checktimes("monday", "lesson2","m2l","m2t");
-
-checktimes("monday", "lesson2","m2l","m2t");
-
